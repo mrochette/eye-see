@@ -542,14 +542,14 @@ function temporaryLoginAction() {
 
         if( $("#"+sessionType).find('input.js-original-value').length > 0 )
         {
-                        alert('Please fill in all the information');
+            alert('Please fill in all the information');
         }
         else
         {
-                        $('#header #field1').attr('value', field1);
-                        $('#header #field2').attr('value', field2);
-                        $('#header #sessionInfo').fadeIn();
-                        nextSlideTransition();
+            $('#header #field1').attr('value', field1);
+            $('#header #field2').attr('value', field2);
+            $('#header #sessionInfo').fadeIn();
+            nextSlideTransition();
         }
     });
 }
