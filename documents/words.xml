@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project>
+    <visualExercises>
+        <exercise number="1">
+            <question>
+                Using the list of words, please narrow down the number to the five words the best describe the product and/or how the product makes you feel
+            </question>
+            <visual>
+                <image>
+                    cute-puppy-exercise.jpg
+                </image>
+                <image>
+                    cute-puppy-exercise.jpg            
+                </image>
+                <image>
+                    cute-puppy-exercise.jpg
+                </image>
+            </visual>
+        </exercise>
+        <exercise number="2">
+            <question>
+                Using the list of words, please narrow down the number to the five words the best describe the product and/or how the product makes you feel
+            </question>
+            <visual>
+                <image>
+                    cute-puppy-exercise.jpg
+                </image>
+                <image>
+                    cute-puppy-exercise.jpg            
+                </image>
+                <image>
+                    cute-puppy-exercise.jpg
+                </image>
+            </visual>
+        </exercise>
+            <exercise number="3">
+            <question>
+                Using the list of words, please narrow down the number to the five words the best describe the product and/or how the product makes you feel
+            </question>
+            <visual>
+                <image>
+                    cute-puppy-exercise.jpg
+                </image>
+                <image>
+                    cute-puppy-exercise.jpg            
+                </image>
+                <image>
+                    cute-puppy-exercise.jpg
+                </image>
+            </visual>
+        </exercise>
+    </visualExercises>   
+    <listOfWords>
+        <word>Accessible</word>
+        <word>Advanced</word>
+        <word>Annoying</word>
+        <word>Appealing</word>
+        <word>Approachable</word>
+        <word>Attractive</word>
+        <word>Boring</word>
+        <word>Business-like</word>
+        <word>Busy</word>
+        <word>Calm</word>
+        <word>Clean</word>
+        <word>Clear</word>
+        <word>Collaborative</word>
+        <word>Comfortable</word>
+        <word>Compatible</word>
+        <word>Compelling</word>
+        <word>Complex</word>
+        <word>Comprehensive</word>
+        <word>Confident</word>
+        <word>Confusing</word>
+        <word>Connected</word>
+        <word>Consistent</word>
+        <word>Controllable</word>
+        <word>Convenient</word>
+        <word>Creative</word>
+        <word>Customizable</word>
+        <word>Cutting edge</word>
+        <word>Daed</word>
+        <word>Desirable</word>
+        <word>Difficult</word>
+        <word>Disconnected</word>
+        <word>Disruptive</word>
+        <word>Distracting</word>
+        <word>Dull</word>
+        <word>Easy to use</word>
+        <word>Effective</word>
+        <word>Efficient</word>
+        <word>Effortless</word>
+        <word>Empowering</word>
+        <word>Energetic</word>
+        <word>Engaging</word>
+        <word>Entertaining</word>
+        <word>Enthusiastic</word>
+        <word>Essential</word>
+        <word>Exceptional</word>
+        <word>Exciting</word>
+        <word>Expected</word>
+        <word>Familiar</word>
+        <word>Fast</word>
+        <word>Flexible</word>
+        <word>Fragile</word>
+        <word>Fresh</word>
+        <word>Friendly</word>
+        <word>Frustrating</word>
+        <word>Fun</word>
+        <word>Gets in the way</word>
+        <word>Hard to use</word>
+        <word>Helpful</word>
+        <word>High quality</word>
+        <word>Impersonal</word>
+        <word>Impressive</word>
+        <word>Incomprehensible</word>
+        <word>Inconsistent</word>
+        <word>Ineffective</word>
+        <word>Innovative</word>
+        <word>Inspiring</word>
+        <word>Integrated</word>
+        <word>Intimidating</word>
+        <word>Intuitive</word>
+        <word>Inviting</word>
+        <word>Irrelevant</word>
+        <word>Low maintenance</word>
+        <word>Meaningful</word>
+        <word>Motivating </word>
+        <word>Not secure</word>
+        <word>Not valuable</word>
+        <word>Novel</word>
+        <word>Old</word>
+        <word>Optimistic</word>
+        <word>Ordinary</word>
+        <word>Organized</word>
+        <word>Overbearing</word>
+        <word>Overwhelming</word>
+        <word>Patronizing</word>
+        <word>Personal</word>
+        <word>Poor quality</word>
+        <word>Powerful</word>
+        <word>Predictable</word>
+        <word>Professional</word>
+        <word>Relevant</word>
+        <word>Reliable</word>
+        <word>Responsive</word>
+        <word>Rigid</word>
+        <word>Satisfying</word>
+        <word>Secure</word>
+        <word>Slow</word>
+        <word>Sophisticated</word>
+        <word>Stable</word>
+        <word>Sterile</word>
+        <word>Stimulating</word>
+        <word>Straightforward</word>
+        <word>Stressful</word>
+        <word>Time-consuming</word>
+        <word>Time-saving</word>
+        <word>Too technical</word>
+        <word>Trustworthy</word>
+        <word>Unapproachable</word>
+        <word>Unattractive</word>
+        <word>Uncontrollable</word>
+        <word>Unconventional</word>
+        <word>Understandable</word>
+        <word>Undesirable</word>
+        <word>Unpredictable</word>
+        <word>Unrefined</word>
+        <word>Usable</word>
+        <word>Useful</word>
+        <word>Valuable</word>
+    </listOfWords>
+</project>
