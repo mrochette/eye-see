@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visual Design Assessment Tool</title>
+	<link rel="icon" type="image/ico" href="assets/images/favicon.ico">
+
+	<script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+	<script src="js/front_end.js" type="text/javascript"></script>
+	<script src="js/exercise.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/participant.css" />
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+	<![endif]-->
+	
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="exercise">
+
+<div id="wrapper">
+	<div id="header">
+		<div id="topRight">
+			<div id="userInformation">
+				<span id="projectName">Project Name</span>
+				<span id="userName">User Name</span>
+			</div>
+			<ul id="steps">
+				<li id="completeMessage">Your evaluation has been sent!</li>
+			</ul>
+		</div>
+		<div id="logo">Visual Design Assessment Tool</div>
+	</div><!-- / #header -->
+	<section>
+		<div id="exerciseCarousel" class="carousel">
+			<ul class="level1">
+				<li id="instructionsVisuals" class="level1">
+					<div class="exerciseMessage">
+						<h2>Instructions</h2>
+						<p>Please follow these steps according to the following instructions.</p>
+					</div>
+					<p>Instructions will come here.</p>
+					<a id="beginEvaluation" href="#" class="js-carouselTrigger">Temporary pass to the exercises</a>
+				</li><!-- / #instructionsVisuals -->
+			</ul>
+			
+			<div id="wordDrawer" class="drawer">
+				<div class="triggerWrapper">
+					<a href="javaScript:void(0);" class="trigger">Add/modify words</a>
+				</div><!-- / .triggerWrapper -->
+				<div class="content">
+					<ul class="inner">
+					</ul>
+				</div>
+			</div>
+			
+		</div><!-- / #exercisecarousel -->
+	</section>
+</div><!-- / #wrapper -->
+
+<div id="mask"></div>
+<div id="dialog"></div>
+</body>
+</html>

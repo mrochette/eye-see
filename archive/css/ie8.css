@@ -1,0 +1,7 @@
+#login .greyBorder {
+	background: url(../assets/images/ie8/bg_login_form.png) no-repeat;
+}
+
+input[type="text"] {
+	line-height: 24px;	
+}

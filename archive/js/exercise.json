@@ -1,0 +1,32 @@
+{"slides": [
+	{
+		"slide1":
+		[
+			{
+				"question": "Please choose 5 words which represent what you think about this visual.",
+				"visual1": "/assets/images/exercises/v1-exercise.png",
+				"visual2": "/assets/images/exercises/v1_1-exercise.png"
+			}
+		]
+	},
+	{
+		"slide2":
+		[
+			{
+				"question": "Please choose 5 words which represent what you think about this visual.",
+				"visual1": "/assets/images/exercises/v1-exercise.png",
+				"visual2": "/assets/images/exercises/v1_1-exercise.png"
+			}
+		]
+	},
+	{
+		"slide3":
+		[
+			{
+				"question": "Please choose 5 words which represent what you think about this visual.",
+				"visual1": "/assets/images/exercises/v1-exercise.png",
+				"visual2": "/assets/images/exercises/v1_1-exercise.png"
+			}
+		]
+	}
+]}

@@ -1,0 +1,28 @@
+
+#login {
+    position: absolute;
+	text-align: center;
+    top: 15%;
+    width: 100%;
+	z-index: 2;
+}
+
+	#login #header {
+		background: url("../assets/images/bg_login_header.png") repeat-y scroll center center transparent;
+		margin-bottom: 10px;
+		padding: 10px 0;
+	}
+
+	#login .greyBorder {
+		margin: auto;
+		width: 400px;
+	}
+		#login p {
+			margin-top: 0;
+		}
+		
+		#participantLogin fieldset {
+			border-left: 1px solid #404040;
+			height: 180px;
+			padding: 92px 16px 12px;
+		}

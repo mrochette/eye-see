@@ -1,0 +1,519 @@
+/*	LOGIN
+ ********************************************************************************/
+
+#login {
+	margin: 0 120px;
+}
+
+#login h1 {
+	margin: 0;
+}
+
+#login p {
+	margin-top: 0;
+}
+
+#participantLogin {
+    background: url("../assets/images/bg_participant_login.png") no-repeat scroll left center transparent;
+    margin: 0 16px;
+    min-height: 165px;
+    padding: 0 0 0 350px;
+}
+
+#participantLogin fieldset {
+    border-left: 1px solid #404040;
+    height: 180px;
+    padding: 92px 0 12px 16px;
+}
+
+#participantLogin input {
+	
+}
+
+/*	GENERAL EXERCISE
+ ********************************************************************************/
+
+body.exercise #header {
+	background: url(../assets/images/bg_separator_top.png) center 90px no-repeat;
+}
+
+#wordDrawer {
+	visibility: hidden;
+}
+
+#wordDrawer .content {
+	display: block;
+}
+
+
+/*	STEPS
+ ********************************************************************************/
+
+#steps li {
+    border-bottom: 3px solid #CCCCCC;
+    color: #CCCCCC;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    width: 140px;	
+}
+
+#steps li#completeMessage,
+#steps li.js-completed {
+	border-color: #76a78b;
+	color: #76a78b;
+}
+
+#steps li#completeMessage {
+	display: none;
+	padding-right: 160px;
+}
+
+#steps li#completeMessage {
+	width: auto;
+}
+
+#steps li.js-completed {
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE */
+}
+
+#steps li.js-active {
+	border-color: #ffa800;
+	color: #404040;
+}
+
+/*	EXERCISES
+ ********************************************************************************/
+
+/* carousel */
+.carousel {
+	overflow: hidden;
+	position: relative;
+	width: 1000px;
+}
+
+.carousel .carousel li.level2 {
+	margin: 0 42px;
+	position: relative;
+	text-align: center;
+}
+
+.carousel > ul {
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.carousel ul.level2 {
+	top: 50px;
+}
+
+.carousel > ul,
+.carousel > ul > li {
+	width: 100%;
+}
+
+.carousel ul li.carousel ul li {
+	width: 916px;
+}
+
+.carousel ul li.carousel ul li img {
+    cursor: pointer;
+    outline: 1px solid #CCCCCC;
+}
+
+.exerciseMessage,
+.exerciseQuestion {
+    background-image: url("../assets/images/bg_exerciseQuestion.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    float: left;
+	margin-bottom: 20px;
+    padding-left: 48px;
+    width: 100%;
+}
+
+.exerciseMessage {
+	background-image: url("../assets/images/bg_exerciseMessage.png");
+}
+
+.exerciseMessage h2,
+.exerciseQuestion h2 {
+    color: #FFA800;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 23px;
+	margin: 2px 0 0;
+}
+
+.exerciseMessage p,
+.exerciseQuestion p {
+	margin: 0;
+}
+
+.arrow {
+    background: url("../assets/images/bg_carousel_arrows.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 171px;
+    left: 0;
+    margin: -145px 0 0 0;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* IE */
+    position: absolute;
+    top: 50%;
+    width: 26px !important;
+}
+
+.arrow:hover {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE */
+}
+
+.arrow.right {
+    background-position: right top;
+    left: auto;
+    right: 0;
+}
+
+.arrow.js-disabled {
+	cursor: default;
+	opacity: 0.25;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* IE */
+}
+
+.visual {
+	background-color: #fff;
+	width: 920px;
+}
+
+.visual .enlarge {
+	background: url("../assets/images/icon_zoom.png") repeat scroll 0 0 transparent;
+    bottom: 0;
+    display: none;
+    height: 87px;
+    position: absolute;
+    right: 60px;
+    text-indent: -999em;
+    width: 96px;
+}
+
+/* slideNavigation */
+
+.slideNavigation {
+	background: url(../assets/images/bg_separator_bottom.png) center top no-repeat;  
+	bottom: 0;
+    height: 102px;
+    left: 0;
+	padding-top: 14px;
+    position: absolute;
+    text-align: left;
+    width: 960px;
+}
+
+.nextSlideContainer .mainBox,
+div.nextSlideContainer {
+    bottom: 0;
+    height: 105px;
+    position: absolute;
+    right: 0;
+    width: 960px;
+    z-index: 6;
+}
+
+div.nextSlideContainer {
+    background-color: #76A78B;
+    display: none;
+    height: 105px;
+    z-index: 5;
+}
+
+div.nextSlideContainer {
+    background-color: #76a78b;
+    display: none;
+    height: 105px;
+}
+
+a.nextSlideButton {
+    background-color: #589271;
+    background-image: url(../assets/images/bg_nextSlide.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 105px;
+    padding-left: 31px;
+    padding-right: 85px;
+    position: absolute;
+    right: 0;
+    text-align: justify;
+    text-decoration: none;
+    width: 160px;
+}
+
+a.nextSlideButton span {
+    float: left;
+    width: 100%;
+}
+
+a.nextSlideButton span.firstLine {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+a.nextSlideButton span.submitExercise {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+a.nextSlideButton span.secondLine {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.js-completedSlide h4,
+.js-completedSlide .slide-wordBox-words,
+.js-completedSlide .slide-favoriteDesign-designNumber {
+    color: #fff;    
+}
+
+
+.slideNavigation .mainBox {
+    height: 85px;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    right: auto;
+    width: 664px;
+    z-index: 6;
+}
+
+.js-completedSlide .mainBox {
+	background-color: #76A78B;
+}
+
+.slideNavigation h4 {
+	font-size: 24px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.slideNavigation .slideWordBoxWords {
+	float: left;
+    font-size: 14px;
+    margin: 4px 0 0;
+}
+
+.slideNavigation a.rouletteTrigger {
+    background-color: #FFA800;
+    border-radius: 25px 25px 0 0;
+    bottom: 0;
+    height: 25px;
+    left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    width: 208px;
+    z-index: 6;
+}
+
+/* words drawer */
+
+#wordDrawer {
+	bottom: 0;
+    left: 0;
+	margin-bottom: -35px;
+    width: 100%;
+}
+
+#wordDrawer .triggerWrapper {
+	height: 35px;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+
+
+#wordDrawer  a.trigger,
+#wordDrawer .content {
+	background-color: #FFA800;
+    border-radius: 25px 25px 0 0;
+}
+
+#wordDrawer  a.trigger {
+	color: #fff;
+    height: 25px;
+	left: 10px;
+    padding-top: 10px;
+	position: absolute;
+    text-align: center;
+    width: 208px;
+    z-index: 6;
+}
+
+#wordDrawer .content {
+	box-shadow: 2px 5px 7px -2px #000000;   
+	margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#wordDrawer .content .inner {
+background: #fff; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: -moz-linear-gradient(top,  #cacaca 0%, #ffffff 10%, #ffffff 90%, #cacaca 97%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cacaca), color-stop(10%,#ffffff), color-stop(90%,#ffffff), color-stop(97%,#cacaca)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cacaca 0%,#ffffff 10%,#ffffff 90%,#cacaca 97%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cacaca 0%,#ffffff 10%,#ffffff 90%,#cacaca 97%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cacaca 0%,#ffffff 10%,#ffffff 90%,#cacaca 97%); /* IE10+ */
+background: linear-gradient(to bottom,  #cacaca 0%,#ffffff 10%,#ffffff 90%,#cacaca 97%); /* W3C */
+
+    border-radius: 25px 25px 25px 25px;
+	box-shadow: 0 0 4px 0 #000000 inset;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+	width: auto;
+}
+
+#wordDrawer .content .inner li.js-descriptiveWord {
+    cursor: pointer;
+    margin: 5px 56px 5px 0;
+}
+
+#wordDrawer .content .inner li.js-descriptiveWord.js-lastSelected {
+	z-index: 99;
+}
+
+a.js-word {
+    color: #404040;
+	float: left;
+    height: auto;
+    line-height: 18px;
+    padding: 5px 56px 3px 20px;
+}
+
+#wordDrawer .content .inner li.js-selected {
+    background-color: #589271;
+	position: relative;
+	z-index: 9;
+}
+
+#wordDrawer .content .inner li.js-selected a.js-word {
+	color: #FFFFFF;
+}
+
+.js-wordOptions {
+    height: 26px;
+    padding-right: 0;
+    right: -44px;
+    top: 0;
+}
+
+.js-wordOptions .js-notes {
+	display: none;
+}
+
+.js-wordOptions,
+.js-wordOptions a,
+.js-wordOptions .js-notes {
+	position: absolute;
+}
+
+.js-wordOptions a {
+	background: #589271 url(../assets/images/sprite_word_options.png) left bottom no-repeat;
+	border-left: 1px solid #fff;
+	height: 26px;
+	right: 0;
+	top: 0;
+	width: 27px;
+}
+
+.js-wordOptions a.js-editBox {
+	right: 28px;
+}
+
+.js-wordOptions.js-editActive a.js-editBox {
+	background-position: left 3px;
+}
+
+.js-wordOptions a.js-remove {
+	background-color: #e05341;
+	background-position: left center;
+	right: 0;
+}
+
+.js-wordOptions .js-notes {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #589271;
+    box-shadow: 2px 2px 7px -2px #000000;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    top: 26px;
+}
+
+.js-topNotes .js-wordOptions .js-notes {
+	bottom: 26px;
+	top: auto;
+}
+
+.js-bottomNotes .js-notes {
+	top: auto;
+	bottom: 26px;
+}
+
+.js-wordOptions .js-notes p {
+	margin: 0;
+}
+
+#wordDrawer .content .inner li.js-active .js-wordOptions,
+#wordDrawer .content .inner li.js-active .js-wordOptions a {
+	display: block;
+}
+
+#submitScreen {
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+#evaluation {
+	text-align: center;
+}
+
+#evaluation li {
+	display: inline-block;
+	float: none;
+	margin-right: 20px;
+	width: 30%;
+}
+
+#evaluation h2 {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+#evaluation img {
+	width: 100%;
+}
+
+#evaluation .js-chosenWordContainer {
+	margin-bottom: 40px;	
+}
+
+#evaluation h3 {
+	margin: 0;
+}
+
+#evaluation .js-chosenWordContainer,
+#evaluation h3,
+#evaluation .js-wordReason{
+    float: left;
+    width: 100%;
+}
+
+#evaluation h3,
+#evaluation .js-wordReason{
+	text-align: left;
+}

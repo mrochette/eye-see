@@ -1,0 +1,93 @@
+.largeStripe,
+.mediumStripe,
+.smallStripe
+ {
+	background: transparent url(../assets/images/bg_login_stripe.png) 0 0 repeat-x;
+	background-size: auto 100%;
+	position: absolute;
+	width: 200%;
+	z-index: -1 !important;
+}
+
+.orange {
+	background-image: url(../assets/images/bg_login_stripe_orange.png);
+}
+
+.red {
+	background-image: url(../assets/images/bg_login_stripe_orange3.png);
+}
+
+.largeStripe {
+	height: 456px;
+	opacity: 0.7;
+	
+	-webkit-animation: animate-stripes-large 60s linear infinite;
+	-moz-animation: animate-stripes-large 60s linear infinite;    
+}
+
+
+@-webkit-keyframes animate-stripes-large { 
+	0% {background-position: 3980px 0;} 100% {background-position: 0 0;}
+}
+
+@keyframes animate-stripes-large {
+	0% {background-position: 3980px 0;} 100% {background-position: 0 0;}
+}
+
+.mediumStripe {
+	height: 350px;
+	opacity: 0.5;
+	
+
+	-webkit-animation: animate-stripes-medium 16s linear infinite;
+    -moz-animation: animate-stripes-medium 16s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes-medium { 
+	0% {background-position: 0 0;} 100% {background-position: 3055px 0;}
+}
+
+@keyframes animate-stripes-medium {
+	0% {background-position: 0 0;} 100% {background-position: 3055px 0;}
+}
+
+.smallStripe {
+	height: 100px;
+	opacity: 0.35;
+	
+	-webkit-animation: animate-stripes-small 10s ease-in-out infinite;
+	-moz-animation: animate-stripes-small 10s ease-in-out infinite;       		
+}
+
+@-webkit-keyframes animate-stripes-small { 
+	0% {background-position: 0 0;} 100% {background-position: 873px 0;}
+}
+
+@keyframes animate-stripes-small {
+	0% {background-position: 0 0;} 100% {background-position: 873px 0;}
+}
+
+#stripe1 {
+	left: 10%;
+	top: 0%;
+}
+
+#stripe2 {
+	left: -90%;
+	top: 20%;
+}
+
+#stripe3 {
+	left: 0;
+	top: 30%;
+}
+
+#stripe4 {
+	left: -40%;
+	top: 60%;
+}
+
+#stripe5 {
+	left: -70%;
+	top: 75%;
+}
